@@ -10,7 +10,7 @@
     "eris": "^0.14.0"
   },
   "scripts": {
-    "test": "WS_MASTER_URL=ws://localhost:3000 PORT=3000 WS_AUTH=RANDOM_TOKEN_FOR_AUTH node master/index.js && node example/cluster.js"
+    "test": "WS_MASTER_URL=ws://localhost:3000 PORT=3000 WS_AUTH=NICE_TOKEN node master/index.js && node example/cluster.js"
   },
   "repository": {
     "type": "git",
