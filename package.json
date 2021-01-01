@@ -1,0 +1,35 @@
+{
+  "name": "eris-net-clustering",
+  "version": "1.0.0",
+  "description": "Example of linking Discord bot's clusters from several machines",
+  "main": "master/index.js",
+  "dependencies": {
+    "ws": "^7.4.1"
+  },
+  "devDependencies": {
+    "eris": "^0.14.0"
+  },
+  "scripts": {
+    "test": "WS_MASTER_URL=ws://localhost:3000 PORT=3000 WS_AUTH=RANDOM_TOKEN_FOR_AUTH node master/index.js && node example/cluster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altir-Team/eris-net-clustering.git"
+  },
+  "keywords": [
+    "eris",
+    "cluster",
+    "net",
+    "network",
+    "local",
+    "localhost",
+    "shard",
+    "sharding"
+  ],
+  "author": "bit0r1n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Altir-Team/eris-net-clustering/issues"
+  },
+  "homepage": "https://github.com/Altir-Team/eris-net-clustering#readme"
+}
